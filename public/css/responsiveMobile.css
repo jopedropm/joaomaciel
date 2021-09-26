@@ -1,0 +1,6 @@
+@media screen and (max-width: 768px) {
+    body {
+        background-image: url("/public/images/backgroundvertical.jpg");
+        background-size: 100%;
+}
+    }

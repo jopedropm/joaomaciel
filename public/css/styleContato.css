@@ -1,0 +1,19 @@
+#contatos {
+    margin-top: 8%;
+    width: 650px;
+    height: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#contatos a {
+    width: 200px;
+    height: 200px;
+}
+#contatos #cel {
+    padding-right: 100px;
+}
+.linkscontato{
+    width: 200px;
+    height: 200px;
+}

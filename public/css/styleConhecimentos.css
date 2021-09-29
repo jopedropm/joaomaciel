@@ -6,7 +6,7 @@
 
 }
 .divLinguagens {
-    font: 400 3vh/3ch 'Courier Prime', monospace;
+    font: 400 3vh/2ch 'Courier Prime', monospace;
     display: flex;
     align-items: center;
     height: 20vh;
@@ -15,11 +15,21 @@
     border-radius: 50px;
     transition: 0.5s;
 }
+.divLinguagens p {
+    position:absolute;
+    opacity: 0;
+    margin-left: 20vh;
+    width: 40%;
+    transition: 0.5s;
+}
 .divLinguagens:hover {
     height: 20vh;
     width: 100vh;
     background: #ffffff27;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.534);
+}
+.divLinguagens:hover p {
+    opacity: 1;
 }
 .barras {
     width: 94vh;

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/public/css/styleSobre.css">
     <link rel="stylesheet" href="/public/css/styleConhecimentos.css">
     <link rel="stylesheet" href="/public/css/stylePortfolio.css">
+    <link rel="stylesheet" href="/public/css/styleContato.css">
     <link rel="stylesheet" href="/public/css/responsivePC.css">
     <link rel="stylesheet" href="/public/css/responsiveMobile.css">
 
@@ -18,20 +19,21 @@
 </head>
 <body background="/public/images/backgroundhorizontal.jpg">
     <header>
-        <a id="logo" href="#landingpage">
+        <div id="logo">
             <img id="logoimg" src="/public/images/logo.svg" alt="">
             <span class="azul">const</span><span class="azulclaro">jp </span>= <span class="marrom">"João Pedro"</span>;
-        </a>
+        </div>
         <nav>
             <ul>
+                <li><a href="#informacoes">informações<span class="amarelo">()</span>;</a></li>
                 <li><a href="#conhecimentos">conhecimentos<span class="azulclaro">()</span>;</a></li>
-                <li><a href="#portfolio ">portifolio <span class="rosa">()</span>;</a></li>
-                <li><a href="#sobre">sobre<span class="amarelo">()</span>;</a></li>
+                <li><a href="#portfolio ">portfólio<span class="rosa">()</span>;</a></li>
+                <li><a href="#contato">contato<span class="amarelo">()</span>;</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="landingpage" class="container">
+        <section id="informacoes" class="container">
             <div>
                 <h1>Olá Mundo!</h1>
                 <p id="p1">
@@ -62,6 +64,7 @@
                     <div class="barras">
                         <div id="barraHTML"></div>    
                     </div>
+                    <p>Acredito já estar bem avançado no html, porem não 100%, ainda falta entender como organizar melhor e alguns detalhes mais avançados.</p>
                 </div>
 
                 <div class="divLinguagens">
@@ -69,6 +72,7 @@
                     <div class="barras">
                         <div id="barraCSS"></div>
                     </div>
+                    <p>Ultimamente tem sido o que eu mais estou gostando de estudar, pretendo ficar muito avançado nele.</p>
                 </div>
 
                 <div class="divLinguagens">
@@ -76,6 +80,7 @@
                     <div class="barras">
                         <div id="barraJS"></div>
                     </div>
+                    <p>Foi o meu primeiro contato com a programação, porem foi deixado de lado quando conheci o HTML e CSS. Ultimamente é o que mais estudo junto ao CSS.</p>
                 </div>
 
                 <div class="divLinguagens">
@@ -83,6 +88,7 @@
                     <div class="barras">
                         <div id="barraC"></div>
                     </div>
+                    <p>É a linguagem que estou aprendendo na faculdade, tenho pouca experiência pelo fato de estar no primeiro semestre.</p>
                 </div>
             </div>
 
@@ -100,10 +106,22 @@
                 <div class="projetos">Nada aqui ainda!</div>
             </div>
         </section>
-        <section id="sobre"class="container">
-            <h1 class="titulos">Sobre</h1>
+        <section id="contato" class="container">
+            <h1 class="titulos">Contato</h1>
+            <div id="contatos">
+                <p>Email: jpjopedro7@gmail.com</p>
+                <p id="cel">Cel: (13)98201-2201</p>
+                <a href="https://github.com/jopedropm" target="_blank">
+                    <img class="linkscontato" src="/public/images/github.png">
+                </a>
+                <a href="https://www.linkedin.com/in/joao-pedro-a52546180/" target="_blank">
+                    <img class="linkscontato" src="/public/images/linkedin.png">
+                </a>
+            </div>
         </section>
-        <footer></footer>
+        <footer>
+            <p id="copyright">© João Pedro Maciel</p>
+        </footer>
     </main>
 </body>
 </html>

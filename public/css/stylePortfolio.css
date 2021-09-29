@@ -27,6 +27,8 @@
 .projetos:hover {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.534);
     color: white;
+    background: #ffffff49;
+    cursor: pointer;
 }
 .projetos:hover img{
     opacity: 1;

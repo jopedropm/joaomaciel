@@ -1,9 +1,9 @@
-
 .imagensLinguagens {
     position: absolute;
     height: 150px;
     margin-left: 1%;
     z-index: 2;
+
 }
 .divLinguagens {
     font: 400 3vh/3ch 'Courier Prime', monospace;
@@ -11,7 +11,7 @@
     align-items: center;
     height: 20vh;
     width: 100vh;
-    margin: 2%;
+    margin: .5%;
     border-radius: 50px;
     transition: 0.5s;
 }
@@ -20,15 +20,14 @@
     width: 100vh;
     background: #ffffff27;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.534);
-
 }
 .barras {
-    width: 83.5vh;
-    border: solid 2px black;
+    width: 94vh;
+    border: solid 1px black;
     background: white;
-    border-radius: 15px;
+    border-radius: 0 15px 15px 0;
     height: 25px;
-    margin-left: 2%;
+    margin-left: 14vh;
     transition: 0.5s;
 }
 .divLinguagens:hover .barras {
@@ -36,30 +35,30 @@
     width: 0;
 }
 #barraHTML {
-    border-radius: 15px;
+    border-radius: 0 15px 15px 0;
     box-shadow: 3px 0px 7px #000000b2;
     width: 90%;
     height: 25px;
     background: #9022C3;
 }
 #barraCSS {
-    border-radius: 15px;
+    border-radius: 0 15px 15px 0;
     box-shadow: 3px 0px 7px #000000b2;
-    width: 62%;
+    width: 60%;
     height: 25px;
     background: #9022C3;
     border: solid none;
 }
 #barraJS {
-    border-radius: 15px;
+    border-radius: 0 15px 15px 0;
     box-shadow: 3px 0px 7px #000000b2;                
-    width: 50%;
+    width: 45%;
     height: 25px;
     background: #9022C3;
     border: solid none;
 }
 #barraC {
-    border-radius: 15px;
+    border-radius: 0 15px 15px 0;
     box-shadow: 3px 0px 7px #000000b2;
     width: 30%;
     height: 25px;

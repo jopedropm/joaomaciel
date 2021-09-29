@@ -1,0 +1,33 @@
+#projetos {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.projetos {
+    width: 436px;
+    height: 436px;
+    margin: 3.2%;
+    background: #ffffff27;
+    border-radius: 50px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    color: rgba(255, 255, 255, 0.500);
+}
+.projetos a{
+    height: 100%;
+}
+.projetos img{
+    opacity: 0.5;
+    height: 100%;
+    transition: 0.5s;
+}
+.projetos:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.534);
+    color: white;
+}
+.projetos:hover img{
+    opacity: 1;
+}

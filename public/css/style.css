@@ -6,7 +6,7 @@
     height: 200px;
 }
 body {
-    background-attachment: absolute;
+    background-attachment: relative;
     background-size: 131%;
     color: white;
     text-decoration: none;

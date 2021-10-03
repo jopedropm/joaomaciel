@@ -88,7 +88,6 @@ footer #copyright {
     body {
         background-image: url("/public/images/backgroundvertical.jpg");
         background-size: 100%;
-        background-attachment: fixed;
     }
     .titulos {
         font: 400 7vw 'Courier Prime', monospace;

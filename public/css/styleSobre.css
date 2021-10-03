@@ -15,7 +15,7 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    width: 40vw;
+    width: 750px;
     transform: translate(-50%, -50%);
     pointer-events: none;
     transition: 0.5s;
@@ -40,24 +40,6 @@
     opacity: 1;
     visibility: visible;
 }
-.card .vertical {
-    z-index: 1;
-    position: relative;
-    font: 400 4.5vw/11vh 'Courier Prime', monospace;
-    width: 1px;
-    left: 5.5%;
-    top: 17.6vw;
-    color: black;
-    text-shadow: none;
-    transition: 0.5s;
-}
-.card:hover .vertical {
-    opacity: 0;
-    font: 400 1.1vw/11vh 'Courier Prime', monospace;
-    left: -9.2vw;
-    top: -3.5vw;
-}
-
 @media screen and (max-width: 1024px) {
     .card {
         width: 80vw;
@@ -72,17 +54,6 @@
         top: -7.5%;
         left: 11%;
         width: 10vw;
-    }
-    .card .vertical {
-        font: 400 9vw/11vh 'Courier Prime', monospace;
-        width: 1px;
-        left: 5.5%;
-        top: 35.5vw;
-    }
-    .card:hover .vertical {
-        font: 400 1.1vw/11vh 'Courier Prime', monospace;
-        left: -9.2vw;
-        top: -3.5vw;
     }
     #p1 {
         font: 400 5vw 'Courier Prime', monospace;

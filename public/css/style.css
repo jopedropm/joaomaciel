@@ -6,8 +6,8 @@
     height: 200px;
 }
 body {
-    background-attachment: fixed;
-    background-size: 131%;
+    background: rgb(0,0,0);
+    background: linear-gradient(142deg, rgba(0,0,0,1) 0%, rgba(32,32,32,1) 16%, rgba(0,0,0,1) 33%, rgba(32,32,32,1) 49%, rgba(0,0,0,1) 66%, rgba(32,32,32,1) 83%, rgba(0,0,0,1) 100%);
     color: white;
     text-decoration: none;
 }
@@ -23,7 +23,7 @@ header {
     background: #9022C3;
     box-shadow: 0px 7px 9px 1px rgba(0, 0, 0, 0.3);
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.603);
-    font: 400 25px/20px 'Courier Prime', monospace;
+    font: 400 1vw/20px 'Courier Prime', monospace;
 }
 #logoimg {
     height: 5vh;
@@ -85,10 +85,6 @@ footer #copyright {
 
 
 @media screen and (max-width: 1024px) {
-    body {
-        background-image: url("/public/images/backgroundvertical.jpg");
-        background-size: 100%;
-    }
     .titulos {
         font: 400 7vw 'Courier Prime', monospace;
     }

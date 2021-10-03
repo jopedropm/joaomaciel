@@ -42,8 +42,7 @@ header {
 #menu a {
     text-decoration: none;
     color: inherit;
-    padding-right: .5vw;
-    padding-left: 6px;
+    padding: 1.8vh .5vw 1.8vh 6px;
 }
 #mobile-menu {
     display: none;
@@ -107,6 +106,11 @@ footer #copyright {
         transform: translateX(100%);
         font: 400 4vw/4vw 'Courier Prime', monospace;
         transition: 0.5s;
+    }
+    #menu a {
+        text-decoration: none;
+        color: inherit;
+        padding: 10vh 30vw;
     }
     #mobile-menu {
         display: block;

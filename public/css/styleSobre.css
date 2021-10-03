@@ -7,7 +7,7 @@
     align-items: center;
     transition: 0.5s;
 }
-.card:hover {
+.card:hover, .card:focus, .card:active  {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.534);
     background: #ffffff27;
 }
@@ -15,12 +15,12 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    width: 700px;
+    width: 750px;
     transform: translate(-50%, -50%);
     pointer-events: none;
     transition: 0.5s;
 }
-.card:hover img {
+.card:hover img, .card:focus img, .card:active img {
     top: 20%;
     left: -12%;
     width: 10vw;
@@ -35,7 +35,7 @@
     opacity: 0;
     visibility: hidden;
 }
-.card:hover .content {
+.card:hover .content, .card:focus .content, .card:active .content {
     left: 0;
     opacity: 1;
     visibility: visible;
@@ -50,7 +50,7 @@
     .card img {
         width: 80vw;
     }
-    .card:hover img {
+    .card:hover img, .card:focus img, .card:active img {
         top: -7.5%;
         left: 11%;
         width: 10vw;

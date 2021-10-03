@@ -23,13 +23,13 @@
     text-align: justify;
     transition: 0.5s;
 }
-.divLinguagens:hover {
+.divLinguagens:hover, .divLinguagens:focus, .divLinguagens:active {
     height: 20vh;
     width: 49.5vw;
     background: #ffffff27;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.534);
 }
-.divLinguagens:hover p {
+.divLinguagens:hover p, .divLinguagens:focus p, .divLinguagens:active p {
     opacity: 1;
 }
 .barras {
@@ -41,7 +41,7 @@
     margin-left: 7.8vw;
     transition: 0.5s;
 }
-.divLinguagens:hover .barras {
+.divLinguagens:hover .barras, .divLinguagens:focus .barras, .divLinguagens:active .barras {
     opacity: 0;
     width: 0;
 }
@@ -78,10 +78,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .imagensLinguagens {
-        width: 14vw;
-
-    }
     .divLinguagens {
         height: 17vh;
         width: 80vw;
@@ -100,7 +96,10 @@
         width: 65vw;
         margin-left: 14.6vw;
     }
-    .divLinguagens:hover .imagensLinguagens {
+    .imagensLinguagens {
+        width: 14vw;
+    }
+    .divLinguagens:hover .imagensLinguagens, .divLinguagens:focus .imagensLinguagens, .divLinguagens:active .imagensLinguagens {
         width: 6vw;
     }
 }

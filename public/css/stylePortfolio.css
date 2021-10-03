@@ -1,12 +1,12 @@
 #projetos {
-    width: 1000px;
+    width: 40.43vw;
     display: flex;
     flex-wrap: wrap;
 }
 .projetos {
-    width: 436px;
-    height: 436px;
-    margin: 3.2%;
+    width: 19vw;
+    height: 19vw;
+    margin: 1.5%;
     background: #ffffff27;
     border-radius: 50px;
     overflow: hidden;
@@ -15,6 +15,7 @@
     justify-content: center;
     transition: 0.5s;
     color: rgba(255, 255, 255, 0.500);
+    font: 400 2vw/2.5vw 'Courier Prime', monospace;
 }
 .projetos a{
     height: 100%;
@@ -32,4 +33,15 @@
 }
 .projetos:hover img{
     opacity: 1;
+}
+
+@media screen and (max-width: 1024px) {
+    #projetos {
+        width: 80vw;
+        font: 400 4vw/4.5vw 'Courier Prime', monospace;
+    }
+    .projetos {
+        width: 37.6vw;
+        height: 37.6vw;
+    }
 }

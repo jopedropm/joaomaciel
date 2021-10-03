@@ -1,17 +1,8 @@
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    min-height: 80vh;
-}
-#p1 {
-    width:72vh;
-}
 .card {
     position: relative;
     border-radius: 50px;
-    width: 60vh;
-    height:60vh;
+    width: 40vw;
+    height:52vh;
     display: flex;
     align-items: center;
     transition: 0.5s;
@@ -24,18 +15,19 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    height: 60vh;
+    width: 40vw;
     transform: translate(-50%, -50%);
     pointer-events: none;
     transition: 0.5s;
 }
 .card:hover img {
-    left: -24%;
-    height: 50%;
+    top: 20%;
+    left: -12%;
+    width: 10vw;
 }
 .card .content {
     position: relative;
-    font: 400 3vh/3ch 'Courier Prime', monospace;
+    font: 400 3vh/6vh 'Courier Prime', monospace;
     text-align: justify;
     margin-left: 5.5%;
     margin-right: 2%;
@@ -51,17 +43,48 @@
 .card .vertical {
     z-index: 1;
     position: relative;
-    font: 400 7vh/11vh 'Courier Prime', monospace;
+    font: 400 4.5vw/11vh 'Courier Prime', monospace;
     width: 1px;
-    left: 6.5%;
-    top: 44%;
+    left: 5.5%;
+    top: 17.6vw;
     color: black;
     text-shadow: none;
     transition: 0.5s;
 }
 .card:hover .vertical {
     opacity: 0;
-    font: 400 3.55vh/11vh 'Courier Prime', monospace;
-    left: -46%;
-    top: 22%;
+    font: 400 1.1vw/11vh 'Courier Prime', monospace;
+    left: -9.2vw;
+    top: -3.5vw;
+}
+
+@media screen and (max-width: 1024px) {
+    .card {
+        width: 80vw;
+    }
+    .card .content {
+        font: 400 4.5vw/6vw 'Courier Prime', monospace;
+    }
+    .card img {
+        width: 80vw;
+    }
+    .card:hover img {
+        top: -7.5%;
+        left: 11%;
+        width: 10vw;
+    }
+    .card .vertical {
+        font: 400 9vw/11vh 'Courier Prime', monospace;
+        width: 1px;
+        left: 5.5%;
+        top: 35.5vw;
+    }
+    .card:hover .vertical {
+        font: 400 1.1vw/11vh 'Courier Prime', monospace;
+        left: -9.2vw;
+        top: -3.5vw;
+    }
+    #p1 {
+        font: 400 5vw 'Courier Prime', monospace;
+    }
 }

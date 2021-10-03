@@ -5,18 +5,6 @@
 .a {
     height: 200px;
 }
-
-section {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 5.5%;
-    min-height: 100vh;
-    margin-left: 10%;
-    margin-right: 10%;
-    font: 400 40px/55px 'Courier Prime', monospace;
-    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.877);
-}
-
 body {
     background-attachment: fixed;
     background-size: 131%;
@@ -31,33 +19,57 @@ header {
     justify-content: space-between;
     position: fixed;
     width: 100%;
-    height: 55px;
-    background-color: #9022C3;
+    height: 6vh;
+    background: #9022C3;
     box-shadow: 0px 7px 9px 1px rgba(0, 0, 0, 0.3);
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.603);
     font: 400 25px/20px 'Courier Prime', monospace;
 }
 #logoimg {
-    width: 45px;
-    height: 45px;
+    height: 5vh;
     margin-right: 5px;
+    margin-left: .5vw;
 }
 #logo{
     display: flex;
     align-items: center;
 }
-nav ul {
+#menu {
     display: flex;
     list-style: none;
 }
-nav ul li a {
+#menu a {
     text-decoration: none;
     color: inherit;
-    padding-right: 6px;
+    padding-right: .5vw;
     padding-left: 6px;
 }
+#mobile-menu {
+    display: none;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+#mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+}
+section {
+    height: 94vh;
+    padding-top: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font: 400 40px/55px 'Courier Prime', monospace;
+    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.877);
+    text-align: center;
+}
 .titulos {
-    font: 400 60px/20px 'Courier Prime', monospace;
+    font: 400 3vw 'Courier Prime', monospace;
 }
 footer {
     height: 100px;
@@ -72,8 +84,52 @@ footer #copyright {
 
 
 
-
-
+@media screen and (max-width: 1024px) {
+    body {
+        background-image: url("/public/images/backgroundvertical.jpg");
+        background-size: 100%;
+        background-attachment: fixed;
+    }
+    .titulos {
+        font: 400 7vw 'Courier Prime', monospace;
+    }
+    header {
+        width: 100%;
+        font: 400 2.5vw/4vw 'Courier Prime', monospace;
+    }
+    #menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        position: absolute;
+        top: 6vh;
+        right: 0;
+        width: 100vw;
+        height: 94vh;
+        background: #9022c3c9;
+        transform: translateX(100%);
+        font: 400 4vw/4vw 'Courier Prime', monospace;
+        transition: 0.5s;
+    }
+    #mobile-menu {
+        display: block;
+        margin-left: 57.4vw;
+    }
+    #nav-list.active #menu {
+        transform: translateX(0);
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    footer {
+        font: 400 3vw 'Courier Prime', monospace;
+    }
+}
 
 
 
@@ -96,6 +152,4 @@ footer #copyright {
 .amareloclaro {
     color: #fffab4;
 }
-
-/* pagina sobre*/
 

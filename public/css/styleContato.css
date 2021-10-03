@@ -1,19 +1,37 @@
 #contatos {
-    margin-top: 8%;
-    width: 650px;
-    height: 650px;
+    width: 30vw;
+    height: 60vh;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-around;
 }
-#contatos a {
-    width: 200px;
-    height: 200px;
+#emailCel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 30vh;
 }
-#contatos #cel {
-    padding-right: 100px;
+#gitLinkedin {
+    display: flex;
+    justify-content: space-around;
 }
-.linkscontato{
-    width: 200px;
-    height: 200px;
+#contatos p {
+    font: 400 1.81vw 'Courier Prime', monospace;
+}
+.linkscontato {
+    width: 10vw;
+}
+
+@media screen and (max-width: 1024px) {
+    #contatos {
+        width: 80vw;
+        height: 60vh;
+    }
+    #contatos p {
+        font: 400 4vw 'Courier Prime', monospace;
+        text-align: center;
+    }
+    .linkscontato {
+        width: 20vw;
+    }
 }

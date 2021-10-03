@@ -1,16 +1,16 @@
 .imagensLinguagens {
     position: absolute;
-    height: 150px;
+    width: 7vw;
     margin-left: 1%;
     z-index: 2;
-
+    transition: 0.5s;
 }
 .divLinguagens {
     font: 400 3vh/2ch 'Courier Prime', monospace;
     display: flex;
     align-items: center;
     height: 20vh;
-    width: 100vh;
+    width: 49.5vw;
     margin: .5%;
     border-radius: 50px;
     transition: 0.5s;
@@ -18,13 +18,14 @@
 .divLinguagens p {
     position:absolute;
     opacity: 0;
-    margin-left: 20vh;
-    width: 40%;
+    margin-left: 9vw;
+    width: 39.5vw;
+    text-align: justify;
     transition: 0.5s;
 }
 .divLinguagens:hover {
     height: 20vh;
-    width: 100vh;
+    width: 49.5vw;
     background: #ffffff27;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.534);
 }
@@ -32,12 +33,12 @@
     opacity: 1;
 }
 .barras {
-    width: 94vh;
+    width: 50vw;
     border: solid 1px black;
     background: white;
-    border-radius: 0 15px 15px 0;
-    height: 25px;
-    margin-left: 14vh;
+    border-radius: 0 20px 20px 0;
+    height: 1.3vw;
+    margin-left: 7.8vw;
     transition: 0.5s;
 }
 .divLinguagens:hover .barras {
@@ -45,34 +46,61 @@
     width: 0;
 }
 #barraHTML {
-    border-radius: 0 15px 15px 0;
+    border-radius: 0 20px 20px 0;
     box-shadow: 3px 0px 7px #000000b2;
     width: 90%;
-    height: 25px;
+    height: 1.3vw;
     background: #9022C3;
 }
 #barraCSS {
-    border-radius: 0 15px 15px 0;
+    border-radius: 0 20px 20px 0;
     box-shadow: 3px 0px 7px #000000b2;
     width: 60%;
-    height: 25px;
+    height: 1.3vw;
     background: #9022C3;
     border: solid none;
 }
 #barraJS {
-    border-radius: 0 15px 15px 0;
+    border-radius: 0 20px 20px 0;
     box-shadow: 3px 0px 7px #000000b2;                
     width: 45%;
-    height: 25px;
+    height: 1.3vw;
     background: #9022C3;
     border: solid none;
 }
 #barraC {
-    border-radius: 0 15px 15px 0;
+    border-radius: 0 20px 20px 0;
     box-shadow: 3px 0px 7px #000000b2;
     width: 30%;
-    height: 25px;
+    height: 1.3vw;
     background: #9022C3;
     border: solid none;
 }
 
+@media screen and (max-width: 1024px) {
+    .imagensLinguagens {
+        width: 14vw;
+
+    }
+    .divLinguagens {
+        height: 17vh;
+        width: 80vw;
+    }
+    .divLinguagens:hover {
+        height: 17vh;
+        width: 80vw;
+    }
+    .divLinguagens p {
+        font: 400 3.5vw/4vw 'Courier Prime', monospace;
+        opacity: 0;
+        width: 70vw;
+        margin-left: 8vw;
+    }
+    .barras {
+        width: 65vw;
+        margin-left: 14.6vw;
+    }
+    .divLinguagens:hover .imagensLinguagens {
+        width: 6vw;
+    }
+}

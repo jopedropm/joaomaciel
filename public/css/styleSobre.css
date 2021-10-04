@@ -7,7 +7,7 @@
     align-items: center;
     transition: 0.5s;
 }
-.card:hover, .card:focus, .card:active  {
+.card:hover  {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.534);
     background: #ffffff27;
 }
@@ -15,19 +15,19 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    width: 750px;
+    width: 65vh;
     transform: translate(-50%, -50%);
     pointer-events: none;
     transition: 0.5s;
 }
-.card:hover img, .card:focus img, .card:active img {
+.card:hover img {
     top: 20%;
     left: -12%;
     width: 10vw;
 }
 .card .content {
     position: relative;
-    font: 400 3vh/6vh 'Courier Prime', monospace;
+    font: 400 1.6vw/6.3vh 'Courier Prime', monospace;
     text-align: justify;
     margin-left: 5.5%;
     margin-right: 2%;
@@ -35,10 +35,13 @@
     opacity: 0;
     visibility: hidden;
 }
-.card:hover .content, .card:focus .content, .card:active .content {
+.card:hover .content {
     left: 0;
     opacity: 1;
     visibility: visible;
+}
+#p1 {
+    font: 400 2vw 'Courier Prime', monospace;
 }
 @media screen and (max-width: 1024px) {
     .card {
@@ -50,7 +53,7 @@
     .card img {
         width: 80vw;
     }
-    .card:hover img, .card:focus img, .card:active img {
+    .card:hover img {
         top: -7.5%;
         left: 11%;
         width: 10vw;

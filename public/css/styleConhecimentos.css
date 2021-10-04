@@ -23,13 +23,13 @@
     text-align: justify;
     transition: 0.5s;
 }
-.divLinguagens:hover, .divLinguagens:focus, .divLinguagens:active {
+.divLinguagens:hover {
     height: 20vh;
     width: 49.5vw;
     background: #ffffff27;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.534);
 }
-.divLinguagens:hover p, .divLinguagens:focus p, .divLinguagens:active p {
+.divLinguagens:hover p {
     opacity: 1;
 }
 .barras {
@@ -41,7 +41,7 @@
     margin-left: 7.8vw;
     transition: 0.5s;
 }
-.divLinguagens:hover .barras, .divLinguagens:focus .barras, .divLinguagens:active .barras {
+.divLinguagens:hover .barras {
     opacity: 0;
     width: 0;
 }
@@ -99,7 +99,7 @@
     .imagensLinguagens {
         width: 14vw;
     }
-    .divLinguagens:hover .imagensLinguagens, .divLinguagens:focus .imagensLinguagens, .divLinguagens:active .imagensLinguagens {
+    .divLinguagens:hover .imagensLinguagens {
         width: 6vw;
     }
 }

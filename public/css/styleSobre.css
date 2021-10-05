@@ -1,5 +1,8 @@
 .card {
     position: relative;
+    cursor: pointer;
+    border: none;
+    background: none;
     border-radius: 50px;
     width: 40vw;
     height:52vh;
@@ -34,6 +37,8 @@
     transition: 0.5s;
     opacity: 0;
     visibility: hidden;
+    color: white;
+    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.877);
 }
 .card:hover .content {
     left: 0;

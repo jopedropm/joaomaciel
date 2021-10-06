@@ -9,7 +9,7 @@
     cursor: pointer;
     border: none;
     background: none;
-    font: 400 3vh/2ch 'Courier Prime', monospace;
+    font: 400 1.5vw/4.5vh 'Courier Prime', monospace;
     display: flex;
     align-items: center;
     height: 20vh;
@@ -84,6 +84,7 @@
 
 @media screen and (max-width: 1024px) {
     .divLinguagens {
+        border-radius: 30px;
         height: 17vh;
         width: 80vw;
     }
@@ -92,7 +93,7 @@
         width: 80vw;
     }
     .divLinguagens p {
-        font: 400 3.5vw/4vw 'Courier Prime', monospace;
+        font: 400 3.5vw/3.5vh 'Courier Prime', monospace;
         opacity: 0;
         width: 70vw;
         margin-left: 8vw;

@@ -53,7 +53,9 @@
         width: 80vw;
     }
     .card .content {
-        font: 400 4.5vw/6vw 'Courier Prime', monospace;
+        font: 400 4.6vw/4.4vh 'Courier Prime', monospace;
+        width: 70vw;
+        margin-left: 6.5vw;
     }
     .card img {
         width: 80vw;

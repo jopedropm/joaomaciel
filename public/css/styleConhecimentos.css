@@ -53,14 +53,14 @@
 #barraHTML {
     border-radius: 0 20px 20px 0;
     box-shadow: 3px 0px 7px #000000b2;
-    width: 90%;
+    width: 75%;
     height: 1.3vw;
     background: #9022C3;
 }
 #barraCSS {
     border-radius: 0 20px 20px 0;
     box-shadow: 3px 0px 7px #000000b2;
-    width: 60%;
+    width: 50%;
     height: 1.3vw;
     background: #9022C3;
     border: solid none;
@@ -68,7 +68,7 @@
 #barraJS {
     border-radius: 0 20px 20px 0;
     box-shadow: 3px 0px 7px #000000b2;                
-    width: 45%;
+    width: 35%;
     height: 1.3vw;
     background: #9022C3;
     border: solid none;
@@ -76,7 +76,7 @@
 #barraC {
     border-radius: 0 20px 20px 0;
     box-shadow: 3px 0px 7px #000000b2;
-    width: 30%;
+    width: 20%;
     height: 1.3vw;
     background: #9022C3;
     border: solid none;

@@ -1,4 +1,3 @@
-const jp = "João Pedro";
 const frase = document.querySelector('#p1')
 const titulo = document.querySelector('h1')
 function typeWriter(elemento) {
